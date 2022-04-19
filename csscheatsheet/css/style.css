@@ -11,6 +11,24 @@ body{
     line-height: 1.6em;
     margin: 0;
 }
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: black;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -44,4 +62,29 @@ margin: 20px;
     border: 1px #ccc solid;
     padding: 10px;
     border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+}
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
 }
